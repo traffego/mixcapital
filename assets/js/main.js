@@ -194,14 +194,14 @@ async function handleContactSubmit(e) {
         hideLoading();
         
         if (result.success) {
-            // Show success toast
+            // Show success message
             showToast('Sucesso!', result.message || 'Sua mensagem foi enviada com sucesso. Retornaremos em breve.', 'success');
             
             // Reset form and close modal
             form.reset();
             closeContactModal();
         } else {
-            // Show error toast
+            // Show error message
             showToast('Erro!', result.message || 'Ocorreu um erro ao enviar sua mensagem.', 'error');
         }
         
@@ -223,46 +223,12 @@ function hideLoading() {
     loading.classList.remove('active');
 }
 
-// Toast Functions
+// Feedback Functions - Solução alternativa ao toast
 function showToast(title, message, type = 'success') {
-    const toast = document.getElementById('toast');
-    if (!toast) {
-        console.error('Toast element not found');
-        return;
-    }
-    
-    const toastTitle = toast.querySelector('.toast-title');
-    const toastDescription = toast.querySelector('.toast-description');
-    const toastIcon = toast.querySelector('.toast-icon i');
-    
-    if (!toastTitle || !toastDescription || !toastIcon) {
-        console.error('Toast elements not found:', { toastTitle, toastDescription, toastIcon });
-        return;
-    }
-    
-    // Update content
-    toastTitle.textContent = title;
-    toastDescription.textContent = message;
-    
-    // Update icon based on type
-    if (type === 'success') {
-        toastIcon.setAttribute('data-lucide', 'check-circle');
-        toastIcon.style.color = 'var(--verde-metalico)';
-    } else {
-        toastIcon.setAttribute('data-lucide', 'x-circle');
-        toastIcon.style.color = 'var(--destructive)';
-    }
-    
-    // Recreate icon
-    lucide.createIcons();
-    
-    // Show toast
-    toast.classList.add('active');
-    
-    // Hide after 5 seconds
-    setTimeout(() => {
-        toast.classList.remove('active');
-    }, 5000);
+    // Solução simples e confiável usando alert
+    const emoji = type === 'success' ? '✅' : '❌';
+    const fullMessage = `${emoji} ${title}\n\n${message}`;
+    alert(fullMessage);
 }
 
 // Content Functions
