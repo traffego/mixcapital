@@ -157,7 +157,7 @@
                 <div class="solutions-grid">
                     <div class="solution-card">
                         <div class="solution-icon">
-                            <i data-lucide="wallet"></i>
+                            <i data-lucide="wallet" stroke="#a5b0bd"></i>
                         </div>
                         <h3 class="solution-title">Conta Digital</h3>
                         <p class="solution-description">Conta completa para sua empresa com cartão e extrato</p>
