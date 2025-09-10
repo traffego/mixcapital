@@ -503,7 +503,12 @@ h1, h2, h3, h4, h5, h6 {
 .solution-icon i {
     width: 1.5rem;
     height: 1.5rem;
-    color: #FFFFFF !important;
+    color: #a5b0bd !important;
+    stroke: #a5b0bd !important;
+}
+
+.solution-icon i svg {
+    stroke: #a5b0bd !important;
 }
 
 .solution-title {
