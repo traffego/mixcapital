@@ -170,7 +170,7 @@
 
                     <div class="solution-card">
                         <div class="solution-icon">
-                            <i data-lucide="credit-card"></i>
+                            <i data-lucide="credit-card" stroke="#a5b0bd"></i>
                         </div>
                         <h3 class="solution-title">Gateway de Pagamento</h3>
                         <p class="solution-description">Aceite todas as formas de pagamento com segurança</p>
@@ -183,7 +183,7 @@
 
                     <div class="solution-card">
                         <div class="solution-icon">
-                            <i data-lucide="link"></i>
+                            <i data-lucide="link" stroke="#a5b0bd"></i>
                         </div>
                         <h3 class="solution-title">Link de Pagamento</h3>
                         <p class="solution-description">Crie links personalizados em segundos</p>
@@ -196,7 +196,7 @@
 
                     <div class="solution-card">
                         <div class="solution-icon">
-                            <i data-lucide="arrow-left-right"></i>
+                            <i data-lucide="arrow-left-right" stroke="#a5b0bd"></i>
                         </div>
                         <h3 class="solution-title">Câmbio</h3>
                         <p class="solution-description">Conversão de moedas para seu negócio internacional</p>
@@ -209,7 +209,7 @@
 
                     <div class="solution-card">
                         <div class="solution-icon">
-                            <i data-lucide="qr-code"></i>
+                            <i data-lucide="qr-code" stroke="#a5b0bd"></i>
                         </div>
                         <h3 class="solution-title">PIX</h3>
                         <p class="solution-description">Transferências instantâneas 24/7 com custos baixos</p>
@@ -222,7 +222,7 @@
 
                     <div class="solution-card">
                         <div class="solution-icon">
-                            <i data-lucide="file-text"></i>
+                            <i data-lucide="file-text" stroke="#a5b0bd"></i>
                         </div>
                         <h3 class="solution-title">Boleto</h3>
                         <p class="solution-description">Emissão automática com registro online</p>
@@ -253,7 +253,7 @@
                 <div class="differentials-grid">
                     <div class="differential-card">
                         <div class="differential-icon">
-                            <i data-lucide="trending-down"></i>
+                            <i data-lucide="trending-down" stroke="#a5b0bd"></i>
                         </div>
                         <div class="differential-content">
                             <div class="differential-header">
@@ -268,7 +268,7 @@
 
                     <div class="differential-card">
                         <div class="differential-icon">
-                            <i data-lucide="zap"></i>
+                            <i data-lucide="zap" stroke="#a5b0bd"></i>
                         </div>
                         <div class="differential-content">
                             <div class="differential-header">
@@ -283,7 +283,7 @@
 
                     <div class="differential-card">
                         <div class="differential-icon">
-                            <i data-lucide="shield"></i>
+                            <i data-lucide="shield" stroke="#a5b0bd"></i>
                         </div>
                         <div class="differential-content">
                             <div class="differential-header">
@@ -298,7 +298,7 @@
 
                     <div class="differential-card">
                         <div class="differential-icon">
-                            <i data-lucide="headphones"></i>
+                            <i data-lucide="headphones" stroke="#a5b0bd"></i>
                         </div>
                         <div class="differential-content">
                             <div class="differential-header">
