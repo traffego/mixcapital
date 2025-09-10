@@ -82,13 +82,12 @@
                     <!-- Content -->
                     <div class="hero-content">
                         <h1 class="hero-title">
-                            Simplifique ao gerar 
-                            <span class="text-gradient">cobranças</span> 
+                            Empresário! <span class="text-gradient"> Gere as suas cobranças</span> 
                             com agilidade e segurança
                         </h1>
                         
                         <p class="hero-description">
-                            Com a MIX CAPITAL você tem tudo o que precisa em um só lugar, 
+                            Com a MIX CAPITAL você tem um MIX de soluções num só lugar, 
                             sem dores de cabeça e preocupações com burocracias
                         </p>
 
@@ -346,8 +345,7 @@
                 <!-- Company Info -->
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <div class="footer-logo-icon">M</div>
-                        <span class="footer-logo-text">MIX CAPITAL</span>
+                        <img src="assets/images/logo.png" alt="MIX CAPITAL Logo" class="footer-logo-img">
                     </div>
                     
                     <p class="footer-description">

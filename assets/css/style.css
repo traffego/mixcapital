@@ -270,7 +270,7 @@ background: var(--gradient-azul-escuro);
     color: var(--prata);
     margin-bottom: 2rem;
     max-width: 36rem;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
 }
 
@@ -674,28 +674,13 @@ background: var(--gradient-azul-escuro);
 .footer-logo {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
     margin-bottom: 1.5rem;
 }
 
-.footer-logo-icon {
-    width: 2rem;
-    height: 2rem;
-    background: var(--gradient-prata);
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--grafite);
-    font-weight: 700;
-    font-size: 1.25rem;
-}
-
-.footer-logo-text {
-    color: var(--branco-tecnico);
-    font-size: 1.25rem;
-    font-weight: 700;
-    letter-spacing: -0.025em;
+.footer-logo-img {
+    height: 1.5rem;
+    width: auto;
+    object-fit: contain;
 }
 
 .footer-description {
@@ -1299,6 +1284,28 @@ background: var(--gradient-azul-escuro);
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .differential-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .differential-title {
+        font-size: 0.8rem;
+    }
+
+    .differential-metric {
+        float: right;
+        padding: 2px 9px 2px 14px;
+        font-size: x-small;
+    }
+
+    .differential-description {
+        font-size: smaller;
     }
 }
 
