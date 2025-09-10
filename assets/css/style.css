@@ -21,12 +21,14 @@
     --verde-metalico: hsl(142, 71%, 45%);  /* #38A169 */
     --azul-ciano: hsl(195, 100%, 50%);     /* #00BFFF */
     --azul-royal: hsl(225, 73%, 57%);      /* #4169E1 */
+    --azul-escuro: hsl(215, 45%, 25%);     /* #2C3E50 - Azul acinzentado escuro */
 
     /* Gradients */
     --gradient-metalico: linear-gradient(135deg, var(--grafite), var(--metalico));
     --gradient-prata: linear-gradient(135deg, var(--prata), var(--tecnico));
     --gradient-cta: linear-gradient(135deg, var(--azul-ciano), var(--azul-royal));
     --gradient-hero: linear-gradient(135deg, var(--grafite) 0%, var(--metalico) 50%, var(--prata) 100%);
+    --gradient-azul-escuro: linear-gradient(135deg, var(--azul-escuro), var(--grafite));
 
     /* Shadows */
     --shadow-metalico: 0 4px 6px rgba(45, 55, 72, 0.1), inset 0 1px 0 rgba(203, 213, 224, 0.1);
@@ -109,9 +111,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-ghost {
-    background: transparent;
-    border: 1px solid var(--prata);
+background: var(--gradient-cta);
     color: var(--branco-tecnico);
+    box-shadow: var(--shadow-metalico);
 }
 
 .btn-ghost:hover {
