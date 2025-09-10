@@ -557,7 +557,7 @@
         <div class="cookie-card">
             <div class="cookie-header">
                 <div class="cookie-icon">
-                    <i data-lucide="cookie"></i>
+                    <i data-lucide="cookie"  stroke="#a5b0bd"></i>
                 </div>
                 <div class="cookie-content">
                     <h3 class="cookie-title">Cookies e Privacidade</h3>
