@@ -675,6 +675,7 @@ background: var(--gradient-azul-escuro);
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
+    height: 3.5rem;
 }
 
 .footer-logo-img {
