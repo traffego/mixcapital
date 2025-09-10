@@ -678,7 +678,7 @@ background: var(--gradient-azul-escuro);
 }
 
 .footer-logo-img {
-    height: 1.5rem;
+    height: 3.5rem;
     width: auto;
     object-fit: contain;
 }
