@@ -226,9 +226,19 @@ function hideLoading() {
 // Toast Functions
 function showToast(title, message, type = 'success') {
     const toast = document.getElementById('toast');
+    if (!toast) {
+        console.error('Toast element not found');
+        return;
+    }
+    
     const toastTitle = toast.querySelector('.toast-title');
     const toastDescription = toast.querySelector('.toast-description');
     const toastIcon = toast.querySelector('.toast-icon i');
+    
+    if (!toastTitle || !toastDescription || !toastIcon) {
+        console.error('Toast elements not found:', { toastTitle, toastDescription, toastIcon });
+        return;
+    }
     
     // Update content
     toastTitle.textContent = title;
