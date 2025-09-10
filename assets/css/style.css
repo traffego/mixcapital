@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-ghost {
-background: var(--gradient-cta);
+background: var(--gradient-azul-escuro);
     color: var(--branco-tecnico);
     box-shadow: var(--shadow-metalico);
 }
