@@ -1307,6 +1307,14 @@ background: var(--gradient-azul-escuro);
     .differential-description {
         font-size: smaller;
     }
+
+    .stats-grid {
+        display: block;
+    }
+
+    .stat-item {
+        margin: 15px;
+    }
 }
 
 @media (min-width: 768px) {
