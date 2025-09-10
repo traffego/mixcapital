@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/images/logo-icon.png" type="image/png">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
     <title>MIX CAPITAL - Gateway de Pagamentos Seguro e Ágil</title>
     <meta name="description" content="Revolucione suas transações com o gateway de pagamentos mais completo do Brasil. PIX, cartões, boleto e muito mais com MIX CAPITAL." />
     <meta name="author" content="MIX CAPITAL" />
@@ -600,7 +600,7 @@
             <div class="toast-icon">
                 <i data-lucide="check-circle"></i>
             </div>
-            <div class="toast-message">
+            <div>
                 <strong class="toast-title">Sucesso!</strong>
                 <p class="toast-description">Sua mensagem foi enviada com sucesso.</p>
             </div>
